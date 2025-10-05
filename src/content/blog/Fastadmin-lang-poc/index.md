@@ -3,8 +3,7 @@ title: '对 Fastadmin lang任意文件读取漏洞的代码分析'
 description: 'FastAdmin是一款基于ThinkPHP+Bootstrap的极速后台开发框架。结合最近的漏洞对这个漏洞的成因进行分析。'
 publishDate: '2025-04-30'
 heroImage: {
-    src: 'https://img.keye.wang/blog/1p7YKWgMzqxfpWYxhYLKELFTwLUYhX9P.webp',
-    inferSize: true
+    src: './1p7YKWgMzqxfpWYxhYLKELFTwLUYhX9P.webp'
 }
 ---
 

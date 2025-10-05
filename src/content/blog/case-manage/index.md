@@ -3,8 +3,7 @@ title: '我在 Cursor 的帮助下写了一个案件简报管理系统'
 description: '最近案件比较多，案件的简报整理一直是一个比较头痛的问题。不同类型的案件需要的必要元素其实差距比较大'
 publishDate: '2025-05-04'
 heroImage: {
-    src: 'https://img.keye.wang/blog/lL24F0WWUnfn5cNy63EzEvvMcHGx4sbj.webp',
-    inferSize: true
+    src: './lL24F0WWUnfn5cNy63EzEvvMcHGx4sbj.webp'
 }
 ---
 

@@ -3,8 +3,7 @@ title: '白嫖免费的.edu 邮箱（ASU）'
 description: '教你如何免费获得一个.edu 邮箱。'
 publishDate: '2025-05-04'
 heroImage: {
-    src: 'https://img.keye.wang/blog/OBthWwdB5zNx0xDJtnPJ2fkITvq5uyiY.webp',
-    inferSize: true
+    src: './OBthWwdB5zNx0xDJtnPJ2fkITvq5uyiY.webp'
 }
 ---
 

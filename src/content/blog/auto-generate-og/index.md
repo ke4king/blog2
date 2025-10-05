@@ -3,8 +3,7 @@ title: '如何自动在 Astro 中为博文生成 Open Graph 图片'
 description: '自动化生成 Open Grap 图片。'
 publishDate: '2025-09-22'
 heroImage: {
-    src: 'https://img.keye.wang/blog/kVyt92J5JRQCIwkulOgCzDp7f4UTTBiK.webp',
-    inferSize: true
+    src: './kVyt92J5JRQCIwkulOgCzDp7f4UTTBiK.webp'
 }
 ---
 

@@ -3,8 +3,7 @@ title: '境外eSIM推荐系列之保号策略'
 description: '这是一个对境外 eSIM 卡的汇总及分析。'
 publishDate: '2025-07-13'
 heroImage: {
-    src: 'https://img.keye.wang/blog/27kh2ZomHfKLCgM9RMHtzXhGYM2LQzqj.webp',
-    inferSize: true
+    src: './27kh2ZomHfKLCgM9RMHtzXhGYM2LQzqj.webp'
 }
 ---
 

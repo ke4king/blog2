@@ -3,8 +3,7 @@ title: '教你如何白嫖一年免费 Cursor Pro 会员'
 description: '目前可通过 edu 邮箱获得一年免费的 Cursor Pro会员。'
 publishDate: '2025-07-01'
 heroImage: {
-    src: 'https://img.keye.wang/blog/wYUb1AgIaryi3IH0b6YWuM4IGzbTtpD0.webp',
-    inferSize: true
+    src: './wYUb1AgIaryi3IH0b6YWuM4IGzbTtpD0.webp'
 }
 ---
 

@@ -3,8 +3,7 @@ title: '几乎免费使用的Agent AI教程'
 description: '开源AI代理Gemini CLI，将Gemini的强大能力直接注入您的终端。它提供轻量级访问通道，让您的指令直达模型核心。'
 publishDate: '2025-06-28'
 heroImage: {
-    src: 'https://img.keye.wang/blog/9YNQZ5ahvr9RyNlZKU6pwFkr6GOlr9bv.webp',
-    inferSize: true
+    src: './9YNQZ5ahvr9RyNlZKU6pwFkr6GOlr9bv.webp'
 }
 ---
 

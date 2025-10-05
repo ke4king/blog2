@@ -3,8 +3,7 @@ title: '游戏盾常见抓包及溯源真实IP的浅见'
 description: '“游戏盾”（Game Shield）是专为在线游戏服务提供的一整套安全防护系统，主要用于抵御DDoS攻击、CC攻击、外挂和作弊，为游戏服务器和客户端提供多层保护和加密加速。其常见核心功能包括：'
 publishDate: '2025-06-23'
 heroImage: {
-    src: 'https://img.keye.wang/blog/ezooNSS0MehsHdLrGJ0MbXGp9OPlP8yS.webp',
-    inferSize: true
+    src: './ezooNSS0MehsHdLrGJ0MbXGp9OPlP8yS.webp'
 }
 ---
 

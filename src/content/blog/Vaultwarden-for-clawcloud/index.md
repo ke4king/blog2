@@ -3,8 +3,7 @@ title: '利用 ClawCloud Run 的 Devbox 白嫖部署 Vaultwarden 密码管理软
 description: '使用 ClawCloud 搭建一个开源免费的密码管理软件'
 publishDate: '2025-05-03'
 heroImage: {
-    src: 'https://img.keye.wang/blog/ug3mGPalPo5olMso50krc6dEPSRbaHa7.webp',
-    inferSize: true
+    src: './ug3mGPalPo5olMso50krc6dEPSRbaHa7.webp'
 }
 ---
 
