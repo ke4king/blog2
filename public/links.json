@@ -5,16 +5,17 @@
       "desc": "Common links included in circle friends",
       "link_list": [
         {
-          "name": "Arthals' ink",
-          "intro": "所见高山远木，阔云流风；所幸岁月盈余，了无拘束",
-          "link": "https://arthals.ink/",
-          "avatar": "https://cdn.arthals.ink/Arthals.png"
+          "name": "Puo’s菜园子",
+          "intro": "个人学习的菜园子，wordpress，域名，建站，物流等笔记及生活感触",
+          "link": "http://puo.cn/",
+          "avatar": "http://puo.cn/puo.cn.logo.png"
+
         },
         {
-          "name": "CWorld Site",
-          "intro": "求知若愚，虚怀若谷",
-          "link": "https://cworld0.com/",
-          "avatar": "https://cravatar.cn/avatar/1ffe42aa45a6b1444a786b1f32dfa8aa?s=200"
+          "name": "Tethys Plex",
+          "intro": "故事，想法，和独白。",
+          "link": "https://tethysplex.com",
+          "avatar": "https://tethysplex.com/wp-content/uploads/2025/07/TethysPlex.com-Logo-v3-150x150.avif"
         }
       ]
     },
@@ -38,6 +39,12 @@
           "intro": "随机前往开往的成员博客",
           "link": "https://www.travellings.cn/go.html",
           "avatar": "https://www.travellings.cn/assets/travelling.png"
+        },
+        {
+          "name": "Linux.do",
+          "intro": "新的理想型社区",
+          "link": "https://linux.do/",
+          "avatar": "https://img.keye.wang/blog/2Vkzgov8ywxq6tIr7C3N6eYNYElD83hH.webp"
         }
       ]
     }
