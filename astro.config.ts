@@ -111,6 +111,10 @@ export default defineConfig({
       //     emitFile: true,
       //     filename: 'stats.html'
       //   })
-    ]
+    ],
+    optimizeDeps: {
+      // `astro-pure` relies on virtual modules wired up by its integration, which breaks when prebundled.
+      exclude: ['astro-pure']
+    }
   }
 })
