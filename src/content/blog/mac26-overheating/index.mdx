@@ -1,0 +1,49 @@
+---
+title: '一行代码解决 macOS Tahoe 26 发热耗电问题'
+description: '升级 macOS Tahoe 26 后发热、耗电迅猛，究其原因是因为 Tahoe 的 Window Server中的一个 BUG。目前在 26.0.1 暂未修复。'
+publishDate: '2025-10-12'
+heroImage: {
+    src: './mac26-overheating.webp'
+}
+---
+import { Aside } from 'astro-pure/user';
+
+## 解决办法
+在终端中运行以下代码：
+
+```shell
+launchctl setenv CHROME_HEADLESS 1
+```
+<Aside type='tip'> 需要重启相关 Electron 应用，才能生效。重启 macos 后需要重新执行以上命令。</Aside>
+
+
+## 问题现象
+
+任何基于 Electron 的应用程序（例如：VScode、Cursor、Discord、Slack 等） 都会导致窗口服务消耗大量 GPU。
+
+## 问题成因
+
+macOS Darwin 26 (Tahoe) 有一个 WindowServer 错误，会导致带有阴影的窗口消耗 80% 以上的 GPU 资源。
+
+## 永久解决办法
+
+### vscode
+
+```shell
+sed -i '' 's/experimentalDarkMode:!0}/experimentalDarkMode:!0,hasShadow:false}/g' /Applications/Visual\ Studio\ Code.app/Contents/Resources/app/out/main.js
+```
+### Cursor
+
+```shell
+sed -i '' 's/experimentalDarkMode:!0}/experimentalDarkMode:!0,hasShadow:false}/g' /Applications/Cursor.app/Contents/Resources/app/out/main.js
+```
+### 其他
+
+<Aside type='tip'> 只测试了 vscode 及 Cursor</Aside>
+
+
+## 参考资料
+
+[Github](https://github.com/microsoft/vscode/pull/267724)
+
+##
