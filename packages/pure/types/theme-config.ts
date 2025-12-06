@@ -27,6 +27,14 @@ export const ThemeConfigSchema = () =>
     /** The default favicon for your site which should be a path to an image in the `public/` directory. */
     favicon: FaviconSchema(),
 
+    /** The default social card image for your site which should be a path to an image in the `public/` directory. */
+    socialCard: z
+      .string()
+      .default('/images/social-card.png')
+      .describe(
+        'The default social card image for your site which should be a path to an image in the `public/` directory.'
+      ),
+
     /** Set a logo image to show in the homepage. */
     logo: LogoConfigSchema(),
 
@@ -164,11 +172,7 @@ export const ThemeConfigSchema = () =>
     content: z.object({
       externalLinks: z.object({
         /** Content to show for external links */
-        content: z
-          .string()
-          .optional()
-          .default(' ↗')
-          .describe('Content to show for external links'),
+        content: z.string().optional().default(' ↗').describe('Content to show for external links'),
         /** Properties for the external links element */
         properties: z
           .record(z.string())
